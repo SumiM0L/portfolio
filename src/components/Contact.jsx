@@ -7,8 +7,6 @@ import {
   SiGmail,
 } from "react-icons/si";
 
-import Dhairya from "../assets/DhairyaNew.png";
-
 const Contact = () => {
   return (
     <>
@@ -50,7 +48,7 @@ const Contact = () => {
                 <SiTwitter />
               </a>
               <a
-                href="majmudar777@gmail.com"
+                href="sumi.ms@outlook.com"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
               >
                 <SiGmail />

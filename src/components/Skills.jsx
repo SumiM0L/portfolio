@@ -3,14 +3,18 @@ import {
   CSS,
   Github,
   Git,
-  Vite,
-  TailwindCSS,
   react,
   Python,
   Javascript,
-  CPP,
-  C,
-  Vue
+  Typescript,
+  wordpress,
+  mysql,
+  boostrap,
+  materialui,
+  sql,
+  aws,
+  android,
+  microsoft,
 } from "../constants/Constant";
 
 import AOS from "aos";
@@ -29,21 +33,25 @@ const Skills = () => {
           SKILLS
         </h1>
         <div
-          className="IMG grid place-content-center p-5 grid-cols-3 gap-4 max-sm:p-2 mt-10"
+          className="IMG grid place-content-center p-5 grid-cols-4 gap-4 max-sm:p-2 mt-10"
           data-aos="zoom-out-up"
         >
+          <Image img={react}></Image>
+          <Image img={Typescript}></Image>
+          <Image img={Javascript}></Image>
+          <Image img={Python}></Image>
           <Image img={HTML}></Image>
           <Image img={CSS}></Image>
-          <Image img={Javascript}></Image>
-          <Image img={react}></Image>
-          <Image img={TailwindCSS}></Image>
-          <Image img={Vue}></Image>
-          <Image img={CPP}></Image>
-          <Image img={C}></Image>
-          <Image img={Python}></Image>
-          <Image img={Vite}></Image>
+          <Image img={boostrap}></Image>
+          <Image img={materialui}></Image>
+          <Image img={wordpress}></Image>
+          <Image img={mysql}></Image>
+          <Image img={sql}></Image>
           <Image img={Git}></Image>
           <Image img={Github}></Image>
+          <Image img={aws}></Image>
+          <Image img={android}></Image>
+          <Image img={microsoft}></Image>
         </div>
       </section>
     </>

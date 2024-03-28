@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
 import education from "../assets/lottie/education.json";
-import IIIT_KOTA from "../assets/IIIT_Kota.png";
+import educationNew from "../assets/lottie/edu.json";
 import chmmlogo from "../assets/chmm.png";
 import keralauniversity from "../assets/university.png";
 
@@ -81,7 +81,7 @@ const Education = () => {
             </div>
           </div>
           <Lottie
-            animationData={education}
+            animationData={educationNew}
             loop={true}
             className="max-w-[500px] shadow-xl rounded-xl border border-[#00040f]"
           />
